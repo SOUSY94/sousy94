@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produit Exquis - SHOPsneakers</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000000;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #ddd;
+        }
+        .product-header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .product-header h1 {
+            font-size: 2em;
+            color: #fff;
+            background-color: #333;
+            padding: 10px;
+            border-radius: 8px;
+        }
+        .product-section {
+            display: flex;
+            align-items: flex-start;
+            gap: 20px;
+        }
+        .product-image {
+            width: 40%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .product-details {
+            width: 60%;
+        }
+        .product-description {
+            font-size: 1.1em;
+            line-height: 1.6;
+        }
+        .out-of-stock {
+            color: #d9534f;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+        .price {
+            font-size: 1.4em;
+            font-weight: bold;
+            margin-top: 10px;
+            color: #fff;
+        }
+        .preorder-form {
+            margin-top: 20px;
+            padding: 15px;
+            border: 1px solid #444;
+            border-radius: 8px;
+            background-color: #222;
+        }
+        .preorder-form h2 {
+            color: #fff;
+            margin-bottom: 10px;
+        }
+        .preorder-form label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+            color: #ddd;
+        }
+        .preorder-form input,
+        .preorder-form textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            border: 1px solid #555;
+            font-size: 1em;
+            color: #000;
+        }
+        .preorder-form button {
+            padding: 10px 15px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+        }
+        .preorder-form button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="product-header">
+            <h1>Nike LD Waffle Sacai Black Anthracite</h1>
+            <p>SKU: PRD-12345</p>
+        </div>
+        
+        <div class="product-section">
+            <img style="color: #fff;" src="https://goatem.fr/231-home_default/nike-ld-waffle-sacai-black-anthracite.webp" alt="Kimono Yodji Yamamoto" class="product-image">
+            <div class="product-details">
+                <div class="product-description">
+                    <p>
+                        Sacai et Nike continuent leur collaboration pour donner à la LD Waffle un nouveau panel de couleurs. Après les versions Green et Blue, trois coloris inédits viennent habiller cette silhouette moderne.
+
+                        Cette édition Black Anthracite de la Nike LD Waffle Sacai se pare d’une empeigne en mesh, daim et toile. La paire adopte un coloris noir sur blanc bicolore. La structure est dédoublée pour donner un look déconstruit au modèle.
+                        
+                        Après une première collaboration Nike x Sacai qui a marqué les esprits, ces 3 nouvelles éditions risquent d’attirer l’attention des sneakers addicts.
+                        
+                        SKU : BV0073-001
+                        
+                        Date de sortie : Juillet 2019
+                        
+                        Colorway : BLACK/ANTHRACITE/WHITE/GUNSMOKE
+                    <p>
+                        Caractéristiques principales :
+                    </p>
+                    <ul>
+                        <li>Matériau de haute qualité</li>
+                        <li>Design moderne et élégant</li>
+                        <li>Confort et durabilité</li>
+                    </ul>
+                </div>
+
+                <div class="price">Prix : 299,99 €</div>
+
+                <div class="out-of-stock">
+                    <p>Produit actuellement en rupture de stock.</p>
+                    <p>Nous nous excusons pour le désagrément et vous invitons à précommander ci-dessous.</p>
+                </div>
+
+                <!-- Formulaire de précommande -->
+                <div class="preorder-form">
+                    <h2>Précommandez maintenant</h2>
+                    <form action="#" method="POST">
+                        <label for="email">Adresse e-mail :</label>
+                        <input type="email" id="email" name="email" required>
+
+                        <label for="comments">Commentaires :</label>
+                        <textarea id="comments" name="comments" rows="4"></textarea>
+
+                        <button type="submit">Envoyer la précommande</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
